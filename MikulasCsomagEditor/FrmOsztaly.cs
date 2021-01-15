@@ -93,7 +93,6 @@ namespace MikulasCsomagEditor
             }
             catch(Exception ex)
             {
-                Console.WriteLine(ex);
                 tr.Rollback();
                 MessageBox.Show("Nem sikerült betölteni az osztályt.");
             }
